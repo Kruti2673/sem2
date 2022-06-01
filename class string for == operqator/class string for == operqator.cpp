@@ -43,7 +43,7 @@ int main()
     str1.get_string();
     str2.get_string();
 
-    result = str1 == str2;    //Comparing two strings. Overloaded '==' operator
+    result = str1 == str2;   
     if (result == 0)
     {
         cout << "\nBoth Strings are Equal";
